@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nhom9.memoryleak.fixed">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="nhom9.memoryleak.fixed.asynctask.BestAsyncTaskActivity" />
+        <activity android:name="nhom9.memoryleak.fixed.AsyncTaskActivity" />
+        <activity android:name="nhom9.memoryleak.fixed.StaticAsyncTaskActivity" />
+        <activity android:name="nhom9.memoryleak.fixed.ThreadActivity" />
+        <activity android:name="nhom9.memoryleak.fixed.HandlerActivity" />
+        <activity android:name="nhom9.memoryleak.fixed.SingletonActivity" />
+        <activity android:name="nhom9.memoryleak.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
